@@ -1,3 +1,8 @@
+# Wordle clone submission for Joy of React project.
+
+The project is well within my React skillset, so I built the primary components we had to work on in TypeScript as a way to practice further.
+The solution includes the stretch goals.
+
 # Word Game
 
 ## Joy of React, Project I
