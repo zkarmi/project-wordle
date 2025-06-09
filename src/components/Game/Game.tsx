@@ -49,7 +49,7 @@ function Game() {
         } else if(numGuesses.current >= 6) {
           setGameState(GAME_STATES.LOSS);
         }
-console.log(guesses); // debug
+
         return true;
       }
     }
@@ -63,10 +63,6 @@ console.log(guesses); // debug
     setAnswer(pickAnswer());
     setGameState(null);
   }
-
-  // just for debugging:
-  useEffect(() => console.info('info:',answer), []);
-
 
   return (
     <>
